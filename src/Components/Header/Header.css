@@ -1,0 +1,27 @@
+#Header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 12vh;
+  width: 100%;
+  background-color: var(--Primary-Color);
+  padding: 0 50px;
+}
+.Header__logo a {
+  color: var(--Secondary-Color);
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+.Header__navbar a {
+  margin-left: 20px;
+  color: var(--Secondary-Color);
+  font-size: 1.2rem;
+  font-weight: 500;
+  transition: 0.3s ease-in-out;
+}
+.Header__navbar a:hover {
+  color: var(--Accent-Color);
+}
+.Header__menu {
+  display: none;
+}

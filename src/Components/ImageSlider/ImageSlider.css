@@ -1,0 +1,82 @@
+#ImageSlider {
+  height: 75vh;
+  width: 100%;
+}
+.sliderContainer {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  overflow: hidden;
+}
+.slide-1 {
+  height: 100%;
+  width: 100%;
+  background: url(../../Assets/images/home-slide-1.jpg);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.slide-2 {
+  height: 100%;
+  width: 100%;
+  background: url(../../Assets/images/home-slide-2.jpg);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.slide-3 {
+  height: 100%;
+  width: 100%;
+  background: url(../../Assets/images/home-slide-3.jpg);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.slide {
+  text-align: center;
+}
+.slide h2 {
+  font-size: 1.2rem;
+  font-weight: 300;
+  color: var(--Primary-Color);
+  text-transform: capitalize;
+}
+.slide h1 {
+  font-size: 5.2rem;
+  margin: 10px 0;
+  text-transform: uppercase;
+  color: var(--Primary-Color);
+}
+.slide a {
+  padding: 10px 35px;
+  background-color: var(--Secondary-Color);
+  color: var(--Primary-Color);
+  transition: 0.3s ease-in-out;
+}
+.slide a:hover {
+  background-color: var(--Accent-Color);
+}
+
+.left-arrow {
+  position: absolute;
+  top: 50%;
+  left: 32px;
+  font-size: 2.5rem;
+  cursor: pointer;
+}
+.right-arrow {
+  position: absolute;
+  top: 50%;
+  right: 32px;
+  font-size: 2.5rem;
+  cursor: pointer;
+}
